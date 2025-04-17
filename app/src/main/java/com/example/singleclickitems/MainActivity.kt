@@ -172,7 +172,7 @@ private fun CardContent(name:String){
 private fun Greeting(name: String, modifier: Modifier = Modifier) {
 
     Card(
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorgitScheme.primary),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primary),
         modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)
     ){
         CardContent(name)
